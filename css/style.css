@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+article {
+  width: 34rem;
+  border-radius: 2.5rem;
+  background-color: hsl(216deg, 50%, 16%);
+  overflow: hidden;
+}
+article .margin-2 {
+  margin: 2rem;
+}
+article .img .main-img {
+  margin-bottom: 1rem;
+  height: 30rem;
+  border-radius: 1.5rem;
+  z-index: -1;
+}
+article .img .hide-elements {
+  display: none;
+  cursor: pointer;
+}
+article .img .hide-elements .img-bg {
+  position: absolute;
+  top: 19rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1.5rem;
+  background-color: hsla(178deg, 100%, 50%, 0.7);
+  margin: 0 2rem;
+}
+article .img .hide-elements .view-icon {
+  position: absolute;
+  top: 32rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+article .img .main-img:hover ~ .hide-elements {
+  display: block;
+}
+article .img .hide-elements:hover {
+  display: block;
+}
+article .card-title {
+  color: hsl(0deg, 0%, 100%);
+  transition: color 0.4s;
+}
+article .card-title:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+article .card-text {
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+}
+article .informations {
+  display: flex;
+  flex-direction: row;
+}
+article .informations .svg-icon {
+  margin: 0 0.5rem;
+}
+article .informations .information-one {
+  color: hsl(178deg, 100%, 50%);
+}
+article .informations .information-two {
+  position: relative;
+  left: 8.4rem;
+  color: hsl(215deg, 51%, 70%);
+}
+article .line {
+  margin-bottom: 0;
+  width: 90%;
+  height: 0.1rem;
+  background-color: hsl(215deg, 32%, 27%);
+}
+article .avatar {
+  display: flex;
+}
+article .avatar .avatar-img {
+  margin: 1rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: hsl(0deg, 0%, 100%) solid 0.1rem;
+  justify-content: center;
+}
+article .avatar .avatar-text {
+  margin-top: 1.5rem;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: lighter;
+}
+article .avatar .avatar-text .avatar-name {
+  color: hsl(0deg, 0%, 100%);
+  transition: color 0.4s;
+}
+article .avatar .avatar-text .avatar-name:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3rem;
+  color: hsl(215deg, 51%, 70%);
+}
+
+a {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .attribution {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
