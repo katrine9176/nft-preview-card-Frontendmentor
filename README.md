@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/katrine9176/nft-preview-card-Frontendmentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://katrine9176.github.io/nft-preview-card-Frontendmentor/)
 
 ## My process
 
